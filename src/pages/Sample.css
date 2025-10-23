@@ -1,0 +1,152 @@
+/* .sample{
+    color: brown;
+}
+
+.image{
+    height: 15vh;
+
+}
+
+.card{
+    height: 50vh;
+    background-color: beige;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 50%;
+   
+
+
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: linear-gradient(to bottom right,rgb(142, 219, 245),rgb(180, 180, 255));
+    padding: 40px;
+    box-sizing: border-box;
+
+}
+
+.img1{
+    height: 15vh;
+    width: 100%;
+}
+
+.card1{
+    height: 70vh;
+    width: 25vw;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+   
+}
+
+.b1{
+    display: flex;
+    height: 2.5em;
+    width: 6.5em;
+    background-color: rgb(60, 129, 190);
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+
+}
+
+.div1{
+    padding: 10px;
+} */
+
+/* SamplePage.css */
+
+/* Navbar */
+.custom-navbar {
+  background: linear-gradient(90deg, #4e54c8, #8f94fb);
+  padding: 0.8rem 0;
+}
+
+.custom-navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.custom-navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffd700 !important;
+  text-decoration: underline;
+}
+
+/* Cards */
+.custom-card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card-image {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.category-btn {
+  background-color: #17a2b8;
+  border: none;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.avatar-img {
+  height: 2.5em;
+  width: 2.5em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.read-btn {
+  background-color: #4e54c8;
+  border: none;
+}
+
+/* Modal */
+.modal-content {
+  border-radius: 15px;
+}
+
+.modal-header {
+  background: #4e54c8;
+  color: white;
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+}
