@@ -12,13 +12,15 @@ import men from '../assets/men.jpg';
 // import Carousel from 'react-bootstrap/Carousel';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
-function Sample() {
+function Sample(props) {
   const [showModal, setShowModal] = useState(false);
 
   const handleShow = () => setShowModal(true);
   const handleClose = () => setShowModal(false);
   return (
     <>
+    <h1>heading from sample heloooooo,{props.name}</h1>
+   
 {/* Navbar */}
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
